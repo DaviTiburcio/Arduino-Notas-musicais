@@ -1,0 +1,118 @@
+
+int buzzerPin = 8;
+
+int DO = 262;
+int RE = 294;
+int MI = 330;
+int FA = 349;
+int SOL = 392;
+int LA = 440;
+int SI = 494;
+int E = MI;  
+
+int tempoCurto = 300;  
+int tempoLongo = 600;  
+int tempoMuitoLongo = 800;  
+
+void setup() {
+  pinMode(buzzerPin, OUTPUT);
+}
+
+void loop() {
+ 
+
+  tone(buzzerPin, E);  
+  delay(tempoLongo);   
+  noTone(buzzerPin);   
+
+  tone(buzzerPin, E);  
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, E);  
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, SOL);  
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, DO);  
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, RE);   
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, E);    
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, E);    
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, E);    
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, SOL); 
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, DO);  
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, RE);  
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, E);    
+  delay(tempoMuitoLongo);
+  noTone(buzzerPin);
+
+ 
+
+  delay(tempoLongo);  
+
+  tone(buzzerPin, FA);  
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, FA);  
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, FA);  
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, SOL);  
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, RE);  
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, RE);   
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, E);    
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, DO);  
+  delay(tempoLongo);
+  noTone(buzzerPin);
+
+  tone(buzzerPin, E);    
+  delay(tempoMuitoLongo);
+  noTone(buzzerPin);
+
+  
+  delay(tempoLongo * 2); 
+}
